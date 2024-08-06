@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindDataAccessLayer", "NorthwindDataAccessLayer\NorthwindDataAccessLayer.csproj", "{4027C1C0-C3FE-40B6-9E68-7BDA44C71B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{CD0A1422-3D33-49D8-AB93-675DE177228C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4027C1C0-C3FE-40B6-9E68-7BDA44C71B77} = {4027C1C0-C3FE-40B6-9E68-7BDA44C71B77}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4027C1C0-C3FE-40B6-9E68-7BDA44C71B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4027C1C0-C3FE-40B6-9E68-7BDA44C71B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4027C1C0-C3FE-40B6-9E68-7BDA44C71B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4027C1C0-C3FE-40B6-9E68-7BDA44C71B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0A1422-3D33-49D8-AB93-675DE177228C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0A1422-3D33-49D8-AB93-675DE177228C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0A1422-3D33-49D8-AB93-675DE177228C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0A1422-3D33-49D8-AB93-675DE177228C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {769AB1E8-7F9A-463F-9383-2F29BD4B57EF}
+	EndGlobalSection
+EndGlobal
